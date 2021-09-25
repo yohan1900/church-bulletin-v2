@@ -1,0 +1,221 @@
+:root {
+  --primary-bg-color: #f4f1ee;
+  --primary-color: #c28e79;
+  --secondary-color: #d8b8aa;
+  --footer-bg-color: rgb(234, 230, 230, 0.64);
+  --font-size: 18px;
+  --account-width: 300px;
+  --notice-margin-lr: 1.7rem;
+  --calendar-margin-lr: 1.7rem;
+  --waytocome-margin-lr: 1.7rem;
+  --guestbook-margin-lr: 1.7rem;
+  --font-regular: RIDIBatang;
+  --font-regular-spacing: -0.4px;
+  --font-gothic: Pretendard-Regular;
+  --font-gothic-spacing: -0.2px;
+  --font-bold: RIDIBatang;
+  --font-bold-weight: bold;
+}
+
+#app,
+html {
+  height: 100%;
+}
+
+html {
+  font-size: var(--font-size);
+}
+
+#app {
+  font-family: "Noto Serif KR", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #333;
+}
+
+.bulletin-view {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  padding: 0;
+  margin: auto;
+  background: #fff;
+  line-height: 2rem;
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: var(--font-regular-spacing);
+}
+
+.bulletin-intro {
+  padding: 0 0 40px;
+}
+
+.title {
+  padding: 48px 0;
+  padding-bottom: 20px;
+  font-size: 1.3rem;
+  color: #564545;
+}
+
+.data-place {
+  font-size: 0.8rem;
+  letter-spacing: -0.4px;
+  line-height: 2rem;
+  text-shadow: -1px -1px 0 #fff;
+}
+
+.photo-wrap {
+  height: 475px;
+  background: url(img/home-background.png) center/cover no-repeat;
+}
+
+.favicon {
+  width: 120px;
+  height: 120px;
+  margin: 100px;
+  margin-bottom: -10px;
+  border-radius: 50%;
+}
+
+.paragraph-wrap {
+  margin: 20px 1rem 0;
+  font-size: 0.9rem;
+  font-family: "Gowun Batang", serif;
+}
+
+.text1 {
+  font-size: 40px;
+  color: #fff;
+  font-family: "Yellowtail", cursive;
+}
+
+.text2 {
+  margin-top: 20px;
+  font-size: 2rem;
+  color: #333;
+  font-family: "Gowun Batang", serif;
+}
+
+.worship-title {
+  color: var(--primary-color);
+  letter-spacing: 0.5px;
+  font-size: 1.5rem;
+  margin: 20px;
+  margin-top: 40px;
+}
+
+.worship-anouncer {
+  text-align: right;
+  padding-right: 5px;
+  line-height: 25px;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 300;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.worship-contentBox {
+  position: relative;
+}
+
+.worship-content {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.worship-label {
+  width: 25%;
+  text-align: left;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.worship-what {
+  /* width: 35%; */
+  text-align: right;
+  margin-right: 0;
+}
+
+.worship-helper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.worship-helper-label {
+  width: 25%;
+  text-align: left;
+  color: #333;
+  font-weight: 700;
+}
+
+.worship-helper-what {
+  /* width: 35%; */
+  text-align: right;
+  margin-right: 0;
+}
+
+.worship-helper-what-pray {
+  width: 43%;
+  text-align: left;
+  margin-right: 0;
+}
+
+.noticeBox {
+  margin: 2rem var(--notice-margin-lr) 0;
+  background: hsla(0, 0%, 100%, 0.3);
+  padding: 1.8rem 1rem;
+  box-shadow: 1px 1px 3px rgb(0 0 0 / 5%);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.notice-text {
+  font-size: 0.8rem;
+  letter-spacing: -0.4px;
+  line-height: 2rem;
+  text-shadow: -1px -1px 0 #fff;
+  text-align: left;
+}
+
+.offering {
+  position: relative;
+  margin: 0 auto;
+  padding: 4px 0;
+  text-align: center;
+  cursor: pointer;
+  z-index: 999;
+  background: var(--secondary-color);
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.offering-img-box {
+  justify-content: center;
+}
+.offering-img {
+  width: 100%;
+  /*내가 계속 사진 크기 때문에 스트레스 받았는데 이유는 간단했었음, 일단 여기에 있는 사진 자체의 크기를 설정하지 못했던 것임*/
+}
+
+.footer-wrap {
+  margin-top: 60px;
+  padding: 30px 0;
+  background: var(--footer-bg-color);
+}
+
+@media (max-width: 360px) {
+  html {
+    font-size: calc(var(--font-size) * 360 / 400);
+  }
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: calc(var(--font-size) * 375 / 400);
+  }
+} ;
