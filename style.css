@@ -1,3 +1,7 @@
+* {
+  background-color: #2b5970;
+}
+
 :root {
   --primary-bg-color: #f4f1ee;
   --primary-color: #c28e79;
@@ -54,19 +58,19 @@ html {
   padding: 48px 0;
   padding-bottom: 20px;
   font-size: 1.3rem;
-  color: #564545;
+  color: #F8EAA1;
 }
 
 .data-place {
   font-size: 0.8rem;
   letter-spacing: -0.4px;
   line-height: 2rem;
-  text-shadow: -1px -1px 0 #fff;
+  text-shadow: -1px -1px 0 #557A78;
 }
 
 .photo-wrap {
   height: 475px;
-  background: url(img/home-background.png) center/cover no-repeat;
+  background: url(img/summertrval.png) center/cover no-repeat;
 }
 
 .favicon {
@@ -97,7 +101,7 @@ html {
 }
 
 .worship-title {
-  color: var(--primary-color);
+  color: #fff;
   letter-spacing: 0.5px;
   font-size: 1.5rem;
   margin: 20px;
@@ -108,7 +112,7 @@ html {
   text-align: right;
   padding-right: 5px;
   line-height: 25px;
-  background-color: var(--primary-color);
+  background-color: #557A78;
   color: white;
   font-size: 0.9rem;
   font-weight: 300;
@@ -129,7 +133,7 @@ html {
 .worship-label {
   width: 25%;
   text-align: left;
-  color: var(--primary-color);
+  color: #F9F9E5;
   font-weight: 700;
 }
 
@@ -137,6 +141,7 @@ html {
   /* width: 35%; */
   text-align: right;
   margin-right: 0;
+  color: #eee;
 }
 
 .worship-helper {
