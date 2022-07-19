@@ -73,8 +73,81 @@ html {
 }
 
 .photo-wrap {
-  height: 475px;
-  background: url(img/summertrval.png) center/cover no-repeat;
+  height: 520px;
+  background: url(img/summertraval.png) center/cover no-repeat;
+}
+
+.photo-wrap2 {
+  height: 600px;
+  background: url(img/praylist.png) center/cover no-repeat;
+}
+
+.photo-wrap3 {
+  height: 300px;
+  /* width: 300px; */
+  background: url(img/야월교회.png) center/cover no-repeat;
+}
+
+.photo-wrap4 {
+  height: 300px;
+  /* width: 300px; */
+  background: url(img/염산교회.jpg) center/cover no-repeat;
+}
+
+.photo-wrap5 {
+  height: 300px;
+  /* width: 300px; */
+  background: url(img/문준경.jpg) center/cover no-repeat;
+}
+
+.photo-wrap6 {
+  height: 300px;
+  /* width: 300px; */
+  background: url(img/태평염전.jpg) center/cover no-repeat;
+}
+
+.photo-wrap7 {
+  height: 300px;
+  /* width: 300px; */
+  background: url(img/소금박물관.jpg) center/cover no-repeat;
+}
+
+.photo-wrap8 {
+  height: 300px;
+  /* width: 300px; */
+  background: url(img/우전해수욕장.png) center/cover no-repeat;
+}
+
+.photo-wrap9 {
+  height: 300px;
+  /* width: 300px; */
+  background: url(img/금산교회.jpg) center/cover no-repeat;
+  cursor: pointer;
+}
+
+.photo-wrap10 {
+  height: 300px;
+  /* width: 300px; */
+  background: url(img/두암성결교회.jpg) center/cover no-repeat;
+}
+
+.photo-wrap11 {
+  height: 300px;
+  /* width: 300px; */
+  background: url(img/짱뚱어다리.jpg) center/cover no-repeat;
+}
+
+.btn{
+  text-align: center;
+  background: #557A78;
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Noto Sans KR", sans-serif;
+  border: none;
+  border-radius: 10%;
+  padding: auto;
+  margin: auto;
 }
 
 .favicon {
@@ -109,7 +182,7 @@ html {
   letter-spacing: 0.5px;
   font-size: 1.5rem;
   margin: 20px;
-  margin-top: 40px;
+  margin-top: 10px;
   background: none;
 }
 
@@ -196,7 +269,8 @@ html {
   line-height: 2rem;
   /* text-shadow: -1px -1px 0 #fff; */
   color: #eee;
-  text-align: left;
+  text-align: center;
+  background: none;
 }
 
 .offering {
